@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int main() {
     int rows = 5;
     int cols = 5;
@@ -9,7 +7,7 @@ int main() {
     printf("Classroom Seating Arrangement :\n\n");
 
     for (int i = 0; i < rows; i++) {
-        printf("Row %d")
+        printf("Row %d ", i+1);
         for (int j = 0; j < cols; j++) {
             
             if ((i + j) % 2 == 0) {
